@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins", sans-serif;
+}
+.b{
+    background-image:linear-gradient(#0001, #000), url("library.jpg");
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+.form{
+    width:450px;
+    background-color:transparent;
+    color:white;
+    border-radius: 10px;
+    padding:30px 40px;
+    border:2px solid rgba(255,255,255,.2);
+    backdrop-filter:blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.form h1{
+    font-size:36px;
+    text-align:center;
+}
+.form .input{
+    
+    height:50px;
+    position:relative;
+    margin:30px 0;
+    
+}
+.form input{
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size:16px;
+    color:white;
+    padding:20px 45px 20px 20px;
+    
+    
+}
+.input i {
+    position:absolute;
+    right:5%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+.input input::placeholder{
+    color:white;
+}
+.form button{
+    width:100%;
+    height:45px;
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.form .register{
+    font-size:14.5px;
+    text-align:center;
+    margin:20px 0 15px;
+}
+.form p a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+.form p a:hover{
+    text-decoration:underline;
+}
+body{
+    font-family:'Copperplate Gothic Light';
+    padding:0px;
+    margin:0px;
+    background-color:#d9d9ff;
+}
+#head{
+    height:100px;
+    background-color:black;
+    border:none;
+    margin:0px;
+    position:relative;
+    width:100%;
+
+}
+
+
+
+    /* .book{
+        width:22%;
+        height:400px;
+        border:solid black 1px;
+        margin:25px;
+        float:left;
+    }
+    #foot{
+        position:sticky;
+        clear:both;
+        bottom:0px;
+        display:flex;
+        justify-content:right;
+        align-items:center;
+        background-color:lightblue;
+        width:100%;
+        height:100px;
+    }
+    .book_title{
+        text-align:center;
+        background-color:#9973ff;
+    }
+    .id{
+        visibility: visible;
+        display: none;
+    }
+
+    #search{
+        text-align:right;
+        padding-top:1%;
+        padding-right:1%;
+        padding-left:1%;
+    } */
