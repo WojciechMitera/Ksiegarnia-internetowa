@@ -19,7 +19,7 @@
     <style>
         .book{
                 height:320px;
-                margin:220px 0;
+                margin:280px 0;
             }
         
     </style>
